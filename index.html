@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="sudobody">
+        <div class="header">
+            <h1>Music player</h1>
+        </div>
+
+        <div class="content">
+
+            <div class="list">
+                <h1>SongList</h1>
+                <hr>
+                <!-- <div class="shad"></div> -->
+
+                <!-- <div class="element">
+                    <div class="song"><h3>songname goes here</h3></div>
+                    <button class="favButton">+</button>
+                </div> -->
+            </div>
+
+
+            <div class="player">
+                <div class="volumeSlider">
+
+                </div>
+
+                <div class="songBundle">
+                    <div class="SongImage">
+                        <img src="src/music_placeholder.png" alt="">
+                    </div>
+                    <div class="SongName">
+                        <h2>Songname</h2>
+                    </div>
+                    <div class="SongDetails">
+                        <h3>artist name</h3>
+                    </div>
+                </div>
+
+                <audio id="currentAudio" src="./src/World of Magic.ogg">hello</audio>
+                <input type="range" id="mainRange" value="0">
+                <div class="controls">
+
+                    <button class="button" id="backButton">
+                        <i class="fa-solid fa-backward fa-2xl" style="color: #99b092;"></i>
+                    </button>
+                    <button class="button" id="playButton">
+                        <i class="fa-solid fa-circle-play fa-2xl" style="color: #8cfc6a;"></i>
+                    </button>
+                    <button class="button" id="nextButton">
+                        <i class="fa-solid fa-forward fa-2xl" style="color: #99b092;"></i>
+                    </button>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="favourites">
+                <h1>Favourites</h1>
+                <hr>
+                <div class="element">
+                    <div class="song"></div>
+                    <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio maxime, minima nulla consectetur dignissimos libero dolores similique voluptatem voluptatum voluptate facere voluptates nam, repellat fugit eaque. Harum aut a corporis.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dicta? Ipsa, voluptatem excepturi vero expedita temporibus, obcaecati illum, vitae error amet ut consequatur porro quasi reprehenderit repudiandae eligendi minus fugit!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, deserunt repellat! Suscipit eaque ad enim eligendi, esse, laborum ea, est alias quod dolores aut consectetur harum omnis! Mollitia, magnam aliquam?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsa vel atque reprehenderit, a delectus voluptate, explicabo illum adipisci cupiditate saepe, sunt ratione repellendus veritatis perferendis. Similique doloribus excepturi tempore?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, possimus, ullam atque sapiente tempore at deserunt natus ducimus eius doloremque repellendus voluptatum eaque voluptate eum doloribus eos placeat amet. Doloremque. -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
